@@ -44,7 +44,7 @@ const Hero = () => {
           >
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gray-200 relative">
               <img 
-                src="/images/3.jpg" 
+                src="./images/3.jpg" 
                 alt="Turismo no Tapajós" 
                 className="w-full h-full object-cover"
               />

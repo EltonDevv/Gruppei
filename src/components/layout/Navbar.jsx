@@ -19,7 +19,7 @@ const Navbar = () => {
           
           <Link to="/" className="flex-shrink-0 flex items-center">
             <img 
-              src="/images/Full-logo-GRUPPEI.png" 
+              src="./images/Full-logo-GRUPPEI.png" 
               alt="Gruppei" 
               className="h-10 md:h-12 w-auto object-contain"
             />

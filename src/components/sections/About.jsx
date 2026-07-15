@@ -16,7 +16,7 @@ const About = () => {
           >
             <div className="aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden shadow-xl bg-gray-200">
               <img 
-                src="/images/foto-aerea-rio-com-aguas-cristalinas.jpg" 
+                src="./images/foto-aerea-rio-com-aguas-cristalinas.jpg" 
                 alt="Conheça a região" 
                 className="w-full h-full object-cover"
               />

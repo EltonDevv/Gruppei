@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/">
               <img 
-                src="/images/Full-logo-GRUPPEI.png" 
+                src="./images/Full-logo-GRUPPEI.png" 
                 alt="Gruppei Logo" 
                 className="h-12 w-auto object-contain mb-6"
               />

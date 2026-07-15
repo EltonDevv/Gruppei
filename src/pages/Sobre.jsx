@@ -16,7 +16,7 @@ const Sobre = () => {
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/28.jpg" 
+            src="./images/28.jpg" 
             alt="Paisagem de Alter do Chão" 
             className="w-full h-full object-cover"
           />

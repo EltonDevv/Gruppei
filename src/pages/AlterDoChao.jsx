@@ -18,7 +18,7 @@ const AlterDoChao = () => {
       <section className="relative h-[60vh] min-h-[400px] flex items-center justify-center pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/alter-do-chao.jpg" 
+            src="./images/alter-do-chao.jpg" 
             alt="Vista de Alter do Chão" 
             className="w-full h-full object-cover"
           />
