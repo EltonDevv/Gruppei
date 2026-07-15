@@ -1,0 +1,170 @@
+export const inventoryData = [
+  {
+    id: 1,
+    title: "Encontro das Águas",
+    category: "naturais",
+    tag: "Fenômeno Natural",
+    description: "Um dos mais belos espetáculos da Amazônia, onde as águas ocre-argilosas do rio Amazonas e as verde-azuladas do rio Tapajós correm paralelamente por quilômetros sem se misturar, devido às diferenças de densidade, temperatura e velocidade.",
+    image: "/images/vista-do-alto-da-serra.jpg", // Altere para uma foto real do encontro das águas
+    location: "Orla fluvial de Santarém. O fenômeno pode ser observado diariamente a partir do mirante.",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Mirante de Observação", "Fácil Acesso", "Passeios Fluviais Próximos", "Área Fotográfica"],
+    featured: true
+  },
+  {
+    id: 2,
+    title: "Vila e Praias de Alter do Chão",
+    category: "naturais",
+    tag: "Praias e Balneários",
+    description: "Eleita pelo The Guardian como uma das melhores praias do Brasil. Possui belas praias de areias brancas banhadas pelo rio Tapajós, como a 'Ilha do Amor' e a 'Praia do Cajueiro', cercadas pelo lendário Lago Verde.",
+    image: "/images/alter-do-chao.jpg", 
+    location: "A 37 km de Santarém. Acesso via terrestre (PA-457) em aprox. 40 min, ou fluvial pelo rio Tapajós (3 horas).",
+    bestSeason: "Agosto a Novembro (Período de vazante e formação das praias).",
+    amenities: ["Restaurantes Regionais", "Passeios de Lancha e Catraia", "Hospedagens", "Sinal de Celular"],
+    featured: true
+  },
+  {
+    id: 3,
+    title: "Festa do Çairé",
+    category: "culturais",
+    tag: "Festividades e Folclore",
+    description: "A mais antiga manifestação folclórica da região, com mais de 300 anos de tradição. Une o sagrado e o profano, destacando-se pelo ritmo do carimbó e pelo grandioso Festival Folclórico dos Botos (Tucuxi e Cor de Rosa).",
+    image: "/images/capa-passeio-sax-600.jpg", // Altere para uma foto do Sairé
+    location: "Praça do Sairé (Çairódromo), Vila de Alter do Chão.",
+    bestSeason: "Mês de Setembro.",
+    amenities: ["Apresentações Folclóricas", "Comidas Típicas Regionais", "Artesanato Local", "Estrutura de Arquibancadas"],
+    featured: true
+  },
+  {
+    id: 4,
+    title: "Centro Cultural João Fona",
+    category: "culturais",
+    tag: "Museus e História",
+    description: "O segundo prédio mais antigo de Santarém (concluído em 1867). Abriga um rico acervo com milhares de peças arqueológicas, incluindo a famosa cerâmica Tapajônica, fósseis, moedas antigas e artesanato indígena.",
+    image: "/images/foto-aerea-rio-com-aguas-cristalinas.jpg", // Altere para uma foto do João Fona
+    location: "Praça Barão de Santarém, Centro.",
+    bestSeason: "O ano inteiro (Horário comercial).",
+    amenities: ["Acervo Arqueológico", "Entrada Gratuita", "Acessibilidade", "Informações Turísticas"],
+    featured: false
+  },
+  {
+    id: 5,
+    title: "Serra da Pira Oca",
+    category: "naturais",
+    tag: "Trilhas e Mirantes",
+    description: "Ponto mais alto de Alter do Chão, com vegetação de savana e floresta tropical. Uma cruz no topo simboliza as missões jesuítas. O cume oferece uma visão panorâmica 360º de tirar o fôlego da vila, do Lago Verde e do Rio Tapajós.",
+    image: "/images/alter-do-chao.jpg", // Altere para foto da serra
+    location: "Alter do Chão. É necessário fazer a travessia de catraia até a Ilha do Amor e seguir 1 hora de caminhada por trilha.",
+    bestSeason: "Fim da tarde, para contemplar o pôr do sol.",
+    amenities: ["Trilha Ecológica", "Contato com a Natureza", "Vista Panorâmica", "Guia Opcional"],
+    featured: false
+  },
+  {
+    id: 6,
+    title: "Praia de Ponta de Pedras",
+    category: "naturais",
+    tag: "Praias e Gastronomia",
+    description: "Belíssimo balneário com grande infraestrutura. Famosa pelo seu artesanato em ouriço de castanha e pela gastronomia impecável, especialmente o charutinho frito (que possui até um festival próprio).",
+    image: "/images/vista-do-alto-da-serra.jpg", // Altere para foto de Ponta de Pedras
+    location: "A 23 km do centro urbano, acesso pavimentado via Av. Fernando Guilhon e PA Ponta de Pedras.",
+    bestSeason: "Verão Amazônico (Agosto a Dezembro).",
+    amenities: ["14 Barracas e Restaurantes", "Pousadas e Chalés", "Passeios de Lancha", "Ônibus aos Domingos"],
+    featured: true
+  },
+  {
+    id: 7,
+    title: "Praça do Mirante (Fortaleza do Tapajós)",
+    category: "culturais",
+    tag: "Praças e Mirantes",
+    description: "Revitalizada em 2018, foi construída sobre o local da antiga Fortaleza do Tapajós (séc. XVII). O espaço proporciona uma vista privilegiada para o espetáculo do Encontro das Águas em um ambiente bucólico e histórico.",
+    image: "/images/foto-aerea-rio-com-aguas-cristalinas.jpg", // Altere para foto da praça
+    location: "Área central de Santarém (antigo forte).",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Torre de Observação", "Quiosques de Alimentação", "Palco Cultural", "Estacionamento Próximo"],
+    featured: false
+  },
+  {
+    id: 8,
+    title: "Praia do Maracanã",
+    category: "naturais",
+    tag: "Praias Urbanas",
+    description: "A praia mais próxima do eixo urbano da cidade, com grande extensão de areias brancas. Possui orla em concreto que proporciona bela visão do Rio Tapajós e do tráfego de grandes navios e cargueiros.",
+    image: "/images/alter-do-chao.jpg", // Altere para foto da Praia do Maracanã
+    location: "A 6 km do centro urbano, acesso via Avenida Maracanã.",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Bares e Peixarias", "Orla Estruturada", "Guarda-Vidas (Finais de semana)", "Ônibus Regular"],
+    featured: false
+  },
+  {
+    id: 9,
+    title: "Aluguel de Lanchas e Barcos",
+    category: "serviços",
+    tag: "Passeios Fluviais",
+    description: "Conectamos você aos melhores micro-operadores da região. Alugue lanchas rápidas, barcos tradicionais ou catraias para explorar o Lago Verde, Arapiuns e praias desertas com total segurança.",
+    image: "/images/capa-passeio-sax-600.jpg", 
+    location: "Saídas disponíveis no Terminal Fluvial Turístico (TFT) em Santarém ou na orla de Alter do Chão.",
+    bestSeason: "O ano inteiro (Verão amazônico é ideal para praias).",
+    amenities: ["Pilotos Experientes", "Coletes Salva-vidas", "Roteiros Personalizados", "Grupos Fechados ou Compartilhados"],
+    featured: true
+  },
+  {
+    id: 10,
+    title: "Transporte em Vans e Ônibus",
+    category: "serviços",
+    tag: "Logística Terrestre",
+    description: "Forme seu grupo ou reserve seu lugar em traslados seguros. Nossos parceiros oferecem rotas entre o Aeroporto de Santarém, Alter do Chão, Belterra e comunidades ribeirinhas.",
+    image: "/images/vista-do-alto-da-serra.jpg", 
+    location: "Embarque no Aeroporto Maestro Wilson Fonseca (STM), rodoviária ou hotéis credenciados.",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Ar-condicionado", "Motoristas Profissionais", "Veículos Revisados", "Seguro Passageiro"],
+    featured: true
+  },
+  {
+    id: 11,
+    title: "Círio de N. Sra. da Conceição",
+    category: "eventos",
+    tag: "Romaria Religiosa",
+    description: "A maior manifestação de fé da região. O Círio percorre mais de 10 km, reunindo milhares de católicos de todo o Baixo Amazonas em uma emocionante homenagem à padroeira.",
+    image: "/images/vista-do-alto-da-serra.jpg", 
+    location: "Ruas centrais de Santarém, com encerramento na Catedral Metropolitana.",
+    bestSeason: "Último domingo de Novembro.",
+    amenities: ["Segurança Pública", "Ambulantes e Feiras", "Queima de Fogos", "Missas Campais"],
+    featured: true
+  },
+  {
+    id: 12,
+    title: "Alta Gastronomia Tapajônica",
+    category: "gastronomia",
+    tag: "Restaurantes Premium",
+    description: "Pratos requintados à base de peixes amazônicos em restaurantes de renome, como a famosa Casa do Saulo. Uma imersão nos sabores da floresta com infraestrutura impecável.",
+    image: "/images/alter-do-chao.jpg", 
+    location: "Praia de Carapanari, orla de Santarém e Alter do Chão.",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Ambiente Rústico-Chique", "Culinária Autoral", "Vista para o Rio", "Atendimento Premium"],
+    featured: true
+  },
+  {
+    id: 13,
+    title: "O Autêntico Tacacá",
+    category: "gastronomia",
+    tag: "Comida Típica de Rua",
+    description: "Servido quente em cuias nas tradicionais 'tacacazeiras'. O caldo leva tucupi, goma de tapioca, camarão seco e o famoso jambu, erva que causa uma deliciosa dormência nos lábios.",
+    image: "/images/foto-aerea-rio-com-aguas-cristalinas.jpg", 
+    location: "Diversas praças e esquinas tradicionais da área urbana de Santarém.",
+    bestSeason: "Finais de tarde e noites (o ano inteiro).",
+    amenities: ["Preço Acessível", "Experiência Autêntica", "Comércio Local", "Rápido Consumo"],
+    featured: false
+  },
+  {
+    id: 14,
+    title: "Delícias com Piracuí",
+    category: "gastronomia",
+    tag: "Culinária Regional",
+    description: "Experimente os crocantes bolinhos de Piracuí, uma farinha de peixe (tambaqui, acari, tucunaré) largamente utilizada na cozinha santarena. Uma herança histórica inconfundível.",
+    image: "/images/capa-passeio-sax-600.jpg", 
+    location: "Restaurantes locais, Mercadão 2000 e barracas de praia (como Maracanã e Ponta de Pedras).",
+    bestSeason: "O ano inteiro.",
+    amenities: ["Acompanha Cerveja Gelada", "Sabor Exótico", "Ingredientes Frescos", "Fácil de Encontrar"],
+    featured: false
+  }
+];
