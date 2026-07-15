@@ -7,7 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Gruppei/', // O nome exato do seu repositório no GitHub
   server: {
-    allowedHosts: true, // Isso diz ao Vite para aceitar a URL do Cloudflare Tunnel
+    allowedHosts: true,
   }
 })
